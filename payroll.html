@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Coffeehouse-Company</title>
+    <style>
+        #movetext{
+            animation-name: zigzag;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            position: relative;
+            /* overflow: hidden; */
+        }
+        @keyframes zigzag{
+            0%{
+                left: -50%;
+            }
+
+            25%{
+                left: -25%;
+            }
+
+            50%{
+                left: 0%;
+            }
+
+            75%{
+                left: 25%;
+            }
+            100%{
+                left: 50%;
+            }
+           
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Coffeehouse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="login.html">LogIn</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="movetext">
+        <div class="text-center text-dark my-4">
+            <h1>Welcome Tenzin Yeshi!</h1>
+        </div>
+    </section>
+    <div class="container ">
+    <table class="table table-hover table-dark my-4s">
+        <thead>
+          <tr>
+            <th scope="col">Sr. No</th>
+            <th scope="col">Year</th>
+            <th scope="col">Month</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Bonus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>2020</td>
+            <td>January</td>
+            <td>10000</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>2020</td>
+            <td>February</td>
+            <td>15000</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>2020</td>
+            <td>March</td>
+            <td>13000</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <th class="table-danger"  scope="row">4</th>
+            <td class="table-danger" >2020</td>
+            <td class="table-danger" >April</td>
+            <td class="table-danger" >11000</td>
+            <td class="table-danger" >200</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>2020</td>
+            <td>May</td>
+            <td>19000</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>2020</td>
+            <td>June</td>
+            <td>10000</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>2020</td>
+            <td>July</td>
+            <td>10000</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <th class="table-danger" scope="row">3</th>
+            <td class="table-danger" >2020</td>
+            <td class="table-danger" >August</td>
+            <td class="table-danger" >10000</td>
+            <td class="table-danger" >200</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>2020</td>
+            <td>September</td>
+            <td>10000</td>
+            <td>200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
